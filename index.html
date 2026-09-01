@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link rel="icon" type="image/png" href="https://i.postimg.cc/m2g6Nqxr/image-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmácia Forte na Fé | Desde 2004</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Aviso de Status de Funcionamento (Dinâmico via JS) -->
+    <div id="status-funcionamento" class="status-bar">
+        <span class="status-text"><i class="fas fa-clock"></i> Verificando horário...</span>
+    </div>
+
+<!-- Cabeçalho (Header) -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#inicio" class="logo-container">
+                <img src="https://i.postimg.cc/m2g6Nqxr/image-removebg-preview.png" alt="Logomarca Farmácia Forte na Fé" class="logo">
+                <div class="logo-textos">
+                    <span class="nome-farmacia">Farmácia Forte na Fé</span>
+                    <span class="slogan">Desde 2004 cuidando da sua saúde e bem-estar</span>
+                </div>
+            </a>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#diferencial">Sobre Nós</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Botão Menu Mobile -->
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+<!-- Apresentação (Hero Section) -->
+<section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-heartbeat"></i> SAÚDE DE QUALIDADE E PREÇO JUSTO
+            </div>
+            <h1>✨ A amarelinha do comércio! <br><span class="destaque-azul">Forte</span> na tradição e na <span class="destaque-azul">Fé</span>.</h1>
+            <h2>Há mais de 20 anos cuidando da saúde de Bragança e região, com atendimento humanizado, qualidade e preços que cabem no seu bolso. Preço justo para que cuidar da saúde esteja ao alcance de todos.</h2>
+            
+            <div class="hero-botoes">
+                <a href="https://wa.me/5591988905976?text=Oi%20estava%20no%20site%20e%20tenho%20uma%20duvida" target="_blank" class="btn btn-verde">
+                    <i class="fab fa-whatsapp"></i> Pedir Pelo Delivery
+                </a>
+                
+                <a href="https://chat.whatsapp.com/Hwj3uftzyz8HE6Z9Frx43F?s=cl&p=i&mlu=4" target="_blank" class="btn btn-contorno-branco">
+                    <i class="fab fa-whatsapp"></i> Entrar no Grupo de Ofertas
+                </a>
+            </div>
+        </div>
+    </section>
+<!-- Seção da Imagem de Promoção -->
+<section id="promocoes" class="promocoes-section" style="padding: 50px 20px; background-color: #f8fafc; text-align: center;">
+    <div style="max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
+        
+        <!-- Badge da Campanha -->
+        <div style="display: inline-flex; align-items: center; gap: 15px; background-color: #e0f2fe; color: #0284c7; padding: 6px 18px; border-radius: 20px; font-size: 1.5rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 12px; border: 1px solid #bae6fd;">
+            <i class="fas fa-flag"></i> Campanha em Destaque
+        </div>
+
+        <!-- Título Principal -->
+        <h2 style="font-size: 2.2rem; color: #0f172a; margin: 0 0 8px 0; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;">
+            Semana da Pátria
+        </h2>
+
+        <!-- Subtítulo -->
+        <p style="color: #64748b; margin: 0 0 30px 0; font-size: 1.05rem; font-weight: 400; max-width: 600px;">
+            Ofertas e condições especiais selecionadas para você.
+        </p>
+        
+        <!-- Container da Imagem Única -->
+        <div style="position: relative; width: 100%; max-width: 900px; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); background-color: #ffffff;">
+            <img src="https://i.postimg.cc/5yX172Sh/IMG-3394-JPG.jpg" alt="Promoção Semana da Pátria" style="width: 100%; height: auto; display: block; object-fit: contain;">
+        </div>
+
+    </div>
+</section>
+    <!-- Formas de Pagamento e Entrega -->
+    <section class="facilidades">
+        <div class="container facilidades-container">
+            <div class="facilidade-item">
+                <i class="fas fa-motorcycle"></i>
+                <span>Entrega Rápida</span>
+            </div>
+            <div class="facilidade-item">
+                <i class="fab fa-pix"></i>
+                <span>Aceitamos Pix</span>
+            </div>
+            <div class="facilidade-item">
+                <i class="fas fa-credit-card"></i>
+                <span>Cartões de Crédito e Débito</span>
+            </div>
+            <div class="facilidade-item">
+                <i class="fas fa-money-bill-wave"></i>
+                <span>Dinheiro</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Serviços Farmacêuticos -->
+    <section id="servicos" class="servicos-saude">
+        <div class="container">
+            <h2 class="section-title">Serviços Farmacêuticos</h2>
+            <p class="subtitle-center">Cuidado profissional que vai além da venda de medicamentos.</p>
+            
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h4>Aferição de Pressão</h4>
+                    <p>Acompanhamento seguro da sua pressão arterial.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-tint"></i>
+                    <h4>Teste de Glicemia</h4>
+                    <p>Medição rápida para controle do diabetes.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-syringe"></i>
+                    <h4>Aplicação de Injetáveis</h4>
+                    <p>Aplicação segura feita por profissionais capacitados.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Orientação Farmacêutica</h4>
+                    <p>Tire dúvidas sobre seu tratamento e medicamentos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Segmentos (Produtos) -->
+    <section id="produtos" class="segmentos">
+        <div class="container">
+            <h2 class="section-title">O que oferecemos</h2>
+            <div class="cards-container">
+                <!-- Card Medicamentos -->
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-pills"></i></div>
+                    <h3>Medicamentos</h3>
+                    <p>Ampla variedade de medicamentos de referência (éticos), genéricos, similares e de controle especial, com a garantia de um atendimento farmacêutico de alta qualidade e orientação profissional.</p>
+                </div>
+
+                <!-- Card Perfumaria -->
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-pump-soap"></i></div>
+                    <h3>Perfumaria e Cuidados</h3>
+                    <p>Trabalhamos com as melhores marcas de dermocosméticos, higiene pessoal e beleza para cuidar de você por completo, de dentro para fora.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferencial -->
+    <section id="diferencial" class="diferencial">
+        <div class="container diferencial-content">
+            <div class="diferencial-texto">
+                <h2>A verdadeira essência de uma Farmácia</h2>
+                <p>Muito além de fornecer caixas de medicamentos, nosso compromisso desde 2004 é com a <strong>sua saúde</strong> e qualidade de vida. Somos um estabelecimento dedicado ao cuidado, onde você é recebido com atendimento humanizado, escuta ativa e orientação especializada.</p>
+                <p>Na Farmácia Forte na Fé, cada paciente é parte da nossa comunidade e da nossa história. Nossa missão é promover o seu bem-estar diário.</p>
+            </div>
+            <div class="diferencial-imagem">
+                <i class="fas fa-hand-holding-medical"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avaliações / Depoimentos -->
+    <section class="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O que dizem sobre nós</h2>
+            <div class="depoimentos-container">
+                <div class="depoimento-card">
+                    <div class="estrelas"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Atendimento excelente! Eles realmente se preocupam com a gente e explicam tudo sobre a receita. Não troco de farmácia!"</p>
+                    <strong>- Maria Silva</strong>
+                </div>
+                <div class="depoimento-card">
+                    <div class="estrelas"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"A entrega é super rápida e sempre tem o que eu preciso. O farmacêutico é muito atencioso para tirar dúvidas."</p>
+                    <strong>- João Pedro</strong>
+                </div>
+                <div class="depoimento-card">
+                    <div class="estrelas"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Faz anos que compro na Forte na Fé. É a verdadeira farmácia de confiança da nossa família."</p>
+                    <strong>- Ana Costa</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="localizacao" class="localizacao">
+        <div class="container">
+            <h2 class="section-title">Onde Estamos</h2>
+            <div class="loc-container">
+                <div class="loc-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Nosso Endereço</h3>
+                    <p>Travessa João XXXIII, 510 - Aldeia (Centro Comercial De Bragança)<br>Bragança - PA, CEP: 68600-000</p>
+                    
+                    <div class="gps-botoes">
+                        <a href="https://maps.google.com/?q=Praca+da+Republica,510,Braganca,PA" target="_blank" class="btn-gps google-maps"><i class="fas fa-map"></i> Abrir no Google Maps</a>
+                        <a href="https://waze.com/ul?q=Praca+da+Republica,510,Braganca,PA" target="_blank" class="btn-gps waze"><i class="fab fa-waze"></i> Abrir no Waze</a>
+                    </div>
+
+                    <h3 class="mt-20"><i class="fas fa-clock"></i> Horário de Funcionamento</h3>
+                    <p>
+                        Segunda a Sábado: 07:00–13:00 e 14:30–20:00<br>
+                        Domingo: 07:30–12:00
+                        / feriados: 07:00-13:00
+                    </p>
+                </div>
+                
+                <!-- Mapa Interativo do Google Maps integrando o local exato -->
+                <div class="loc-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.75!2d-46.765!3d-1.053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc95f87bf9ebf1e21!2sFarm%C3%A1cia%20Forte%20na%20F%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Rodapé -->
+    <footer id="contato" class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="https://i.postimg.cc/m2g6Nqxr/image-removebg-preview.png" alt="Logomarca Branca" class="logo-footer">
+                <p>Farmácia Forte na Fé - Tradição e Confiança desde 2004.</p>
+                <div class="responsavel-tecnico">
+                    <strong>DIRETOR TÉCNICO:</strong><br>
+                    Dr. Raimundo Nonato da Silva Gomes<br>
+                    CRF 6709<br>
+                    <strong>Assistente técnico</strong><br>
+                    Vanessa Maria Lima Andrade
+                    CRF -PÁ 10498<br>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Siga-nos</h3>
+                <div class="social-links-container">
+                    <a href="https://www.instagram.com/farmaciafortenafe/" target="_blank" class="social-link"><i class="fab fa-instagram"></i> @farmaciafortenafe</a>
+                    <a href="https://www.facebook.com/farmaciafortenafe1/" target="_blank" class="social-link"><i class="fab fa-facebook"></i> Farmácia Forte na Fé</a>
+                </div>
+            </div>
+            
+            <div class="footer-contato">
+                <h3>Contato</h3>
+                <p><i class="fas fa-phone-alt"></i> (91) 98890-5976</p>
+                <p><i class="fab fa-whatsapp"></i> (91) 98890-5976</p>
+            </div>
+        </div>
+
+        <!-- Patrocínio Oficial -->
+        <div class="footer-patrocinio">
+            <div class="container">
+                <p><i class="fas fa-award"></i> Patrocinadora Oficial da Semana da Pátria</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Farmácia Forte na Fé. Todos os direitos reservados. Não comercializamos medicamentos sujeitos a controle especial pela internet.</p>
+        </div>
+    </footer>
+
+<!-- Botão Flutuante do WhatsApp Moderno -->
+    <a href="https://wa.me/5591988905976?text=Oi%20estava%20no%20site%20e%20tenho%20uma%20duvida" target="_blank" class="whatsapp-float" title="Fale com o Farmacêutico">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Falar com o Atendente</span>
+    </a>
+    <!-- Link para o JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+<footer style="text-align: center; padding: 0.3rem; color: #94a3b8; font-family: 'Segoe UI', sans-serif; font-size: 0.8rem; background-color: #0f172a; border-top: 1px solid #1e293b;">
+    Dev & Cientista de Dados 💻 <a href="https://www.instagram.com/tassio_lin9/" target="_blank" style="color: #38bdf8; text-decoration: none; font-weight: 600;">Tassio Lino</a>
+</footer>
